@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------------
 ---
--- Name: BOS-101 - Truman -- version 1.21
--- Date Modified: 		 25/01/2023
+-- Name: BOS-101 - Truman -- version 1.22
+-- Date Modified: 		 01/03/2023
 -- Modified by: 		 ACEL
 -- CASE I recoveries:	 08:00 - 19:55
 -- CASE III recoveries:	 20:00 - 05:55
@@ -17,15 +17,18 @@ local AirbossCVN75=AIRBOSS:New("CVN75")
 
 -- Add recovery windows:
 
-local window1=AirbossCVN75:AddRecoveryWindow( "08:00", "09:55", 1, nil, true, 25)
-local window1=AirbossCVN75:AddRecoveryWindow( "10:00", "11:55", 1, nil, true, 25)
-local window1=AirbossCVN75:AddRecoveryWindow( "12:00", "13:55", 1, nil, true, 25)
-local window1=AirbossCVN75:AddRecoveryWindow( "14:00", "15:55", 1, nil, true, 25)
-local window1=AirbossCVN75:AddRecoveryWindow( "16:00", "17:55", 1, nil, true, 25)
-local window1=AirbossCVN75:AddRecoveryWindow( "18:00", "19:55", 1, nil, true, 25)
-local window3=AirbossCVN75:AddRecoveryWindow( "20:00", "21:55", 3, nil, true, 15)
-local window3=AirbossCVN75:AddRecoveryWindow( "22:00", "01:55", 3, nil, true, 15)
-local window3=AirbossCVN75:AddRecoveryWindow( "02:00", "05:55", 3, nil, true, 15)
+local window1=AirbossCVN75:AddRecoveryWindow( "06:00", "07:30", 1, nil, true, 25)
+local window1=AirbossCVN75:AddRecoveryWindow( "08:00", "09:30", 1, nil, true, 25)
+local window1=AirbossCVN75:AddRecoveryWindow( "10:00", "11:30", 1, nil, true, 25)
+local window1=AirbossCVN75:AddRecoveryWindow( "12:00", "13:30", 1, nil, true, 25)
+local window1=AirbossCVN75:AddRecoveryWindow( "14:00", "15:30", 1, nil, true, 25)
+local window1=AirbossCVN75:AddRecoveryWindow( "16:00", "17:30", 1, nil, true, 25)
+local window1=AirbossCVN75:AddRecoveryWindow( "18:00", "19:30", 1, nil, true, 25)
+local window3=AirbossCVN75:AddRecoveryWindow( "20:00", "21:30", 3, nil, true, 15)
+local window3=AirbossCVN75:AddRecoveryWindow( "22:00", "23:30", 3, nil, true, 15)
+local window3=AirbossCVN75:AddRecoveryWindow( "00:00", "01:30", 3, nil, true, 15)
+local window3=AirbossCVN75:AddRecoveryWindow( "02:00", "03:30", 3, nil, true, 15)
+local window3=AirbossCVN75:AddRecoveryWindow( "04:00", "05:30", 3, nil, true, 15)
 
 -- Set folder of airboss sound files within miz file.
 AirbossCVN75:SetSoundfilesFolder("Airboss Soundfiles/")
