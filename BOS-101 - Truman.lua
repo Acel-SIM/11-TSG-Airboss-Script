@@ -1,11 +1,12 @@
 ----------------------------------------------------------------------------------------
 ---
 -- Name: BOS-101 - Truman -- version 1.22
--- Date Modified: 		   01/03/2023
--- Modified by: 		     ACEL
--- CASE I recoveries:	   06:00 - 19:30
--- CASE III recoveries:	 20:00 - 05:30
--- Deck closed:			     N/A
+-- Date Modified: 01/03/2023
+-- Modified by:ACEL
+-- CASE I recoveries:06:00 - 19:30
+-- CASE III recoveries:20:00 - 05:30
+-- Deck closed:N/A
+---
 ----------------------------------------------------------------------------------------
 
 -- No MOOSE settings menu. Comment out this line if required.
