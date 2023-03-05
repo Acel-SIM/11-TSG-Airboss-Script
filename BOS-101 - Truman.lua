@@ -40,9 +40,9 @@ AirbossCVN75:SetFunkManOn(10042, "127.0.0.1")
 -- Single carrier menu optimization.
 AirbossCVN75:SetMenuSingleCarrier()
 
--- Set carrier frequencies -- 250 BTN 5 -- 254 BTN 6
-AirbossCVN75:SetLSORadio(250, AM)
-AirbossCVN75:SetMarshalRadio(254, AM)
+-- Set carrier frequencies -- 250 BTN 6 -- 254 BTN 5
+AirbossCVN75:SetLSORadio(254, AM)
+AirbossCVN75:SetMarshalRadio(250, AM)
 
 -- Ser Carrier TACAN to X 106 LW
 AirbossCVN75:SetTACAN(106, X, "LW")
